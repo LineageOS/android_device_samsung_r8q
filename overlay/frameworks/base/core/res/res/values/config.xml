@@ -41,6 +41,15 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 510,60 a 20,20 0 1 0 60,0 a 20,20 0 1 0 -60,0 Z @left</string>
 
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 478,0 h 120 v 120 h -120 Z @left</string>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+         -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <bool name="config_physicalDisplayCutout">true</bool>
+
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
