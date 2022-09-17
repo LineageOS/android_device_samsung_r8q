@@ -158,6 +158,7 @@
     <item name="bluetooth.controller.idle">0</item>
     <item name="bluetooth.controller.rx">10</item>
     <item name="bluetooth.controller.tx">10</item>
+    <item name="bluetooth.controller.voltage">3300</item>
     <item name="wifi.controller.idle">1</item>
     <item name="wifi.controller.rx">130</item>
     <item name="wifi.controller.tx">420</item>
