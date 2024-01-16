@@ -1,0 +1,5 @@
+# Bluetooth
+bluetooth.device.default_name=Galaxy S20 FE
+
+# RIL
+ro.telephony.default_network=9,9

@@ -1,0 +1,12 @@
+# Firmware
+vendor/firmware/nfc/libsn100u_fw.so
+
+# Secure Element
+-vendor/bin/hw/android.hardware.secure_element@1.0-service
+-vendor/bin/hw/android.hardware.secure_element@1.0-service-gto
+vendor/etc/init/android.hardware.secure_element@1.0-service-sku.rc
+vendor/etc/init/android.hardware.secure_element@1.0-service-gto-sku.rc
+vendor/etc/libese-nxp.conf
+vendor/etc/libse-gto-hal.conf
+-vendor/lib64/android.hardware.secure_element-impl-gto.so
+-vendor/lib64/ese_spi_nxp.so
