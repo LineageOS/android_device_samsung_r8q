@@ -121,6 +121,12 @@ on property:ro.boot.carrierid=USC
 on property:ro.boot.carrierid=CCT
     setprop ssu.support 1
 
+# Default network
+on property:ro.product.vendor.name=r8qxx
+    setprop ro.telephony.default_network 9,9
+on property:ro.product.vendor.name=r8qxxx
+    setprop ro.telephony.default_network 33,33
+
 on boot
 
 # Performance
