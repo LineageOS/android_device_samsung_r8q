@@ -158,3 +158,7 @@ on post-fs-data && property:ro.csc.sales_code=DSA
     mount none /mnt/temp/priv-app/VisualVoicemailDsh_Stub /system/carrier/priv-app/VisualVoicemailDsh_Stub bind
     umount /mnt/temp
     rmdir /mnt/temp
+
+# Start NFC hals
+service vendor.nfc_init /vendor/bin/sh /vendor/bin/init.nfc.sh
+    oneshot
