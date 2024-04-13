@@ -1,6 +1,12 @@
 # Firmware
 vendor/firmware/nfc/libsn100u_fw.so
 
+# NFC
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+vendor/lib64/nfc_nci_nxpsn.so
+
 # Secure Element
 -vendor/bin/hw/android.hardware.secure_element@1.0-service
 -vendor/bin/hw/android.hardware.secure_element@1.0-service-gto
