@@ -26,8 +26,12 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Create carrier folder for HiddenMenu
+
 on post-fs
+# Enable NFC services
+    start vendor.nfc_init
+
+# Create carrier folder for HiddenMenu
     mkdir /efs/carrier 0755 radio system
     chown radio system /efs/carrier
     chown radio system /efs/carrier/HiddenMenu
