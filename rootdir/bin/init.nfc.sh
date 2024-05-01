@@ -17,9 +17,11 @@
 
 sku=`getprop ro.boot.hardware.sku`
 if [ "$sku" = "sn110t" ]; then
+    ln -sf /vendor/etc/libnfc-nci-NXP_SN100U.conf /mnt/vendor/etc/libnfc-nci.conf
     start vendor.nfc_hal_service
     start vendor.secure_element_hal_service
 else
+    ln -sf /vendor/etc/libnfc-nci-SLSI.conf /mnt/vendor/etc/libnfc-nci.conf
     start nfc_hal_service
     start vendor.secure_element_hal_service-gto
 fi

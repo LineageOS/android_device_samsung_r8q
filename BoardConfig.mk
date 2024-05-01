@@ -16,10 +16,10 @@
 
 DEVICE_PATH := device/samsung/r8q
 
-include device/samsung/sm8250-common/BoardConfigCommon.mk
-
 # Multi-SKU
 TARGET_HAVE_MULTI_SKU := true
+
+include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/r8q_eur_openx_defconfig

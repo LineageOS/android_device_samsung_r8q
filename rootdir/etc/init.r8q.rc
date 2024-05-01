@@ -128,6 +128,8 @@ on property:ro.product.vendor.name=r8qxxx
     setprop ro.telephony.default_network 33,33
 
 on boot
+# Create directory for libnfc-nci symlink
+    mkdir /mnt/vendor/etc
 
 # Performance
     chmod 0664 /dev/cpuset/restricted/cpus
