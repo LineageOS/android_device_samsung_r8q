@@ -40,4 +40,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Vendor fingerprint
 BUILD_FINGERPRINT := "samsung/r8qxx/r8q:11/RP1A.200720.012/G780GXXS8EXC1:user/release-keys"
-PRIVATE_BUILD_DESC := "r8qxx-user 13 TP1A.220624.014 G780GXXS8EXC1 release-keys"
+PRIVATE_BUILD_DESC := "r8qxx-user 11 RP1A.200720.012 G780GXXS8EXC1 release-keys"
