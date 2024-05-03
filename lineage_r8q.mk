@@ -36,7 +36,7 @@ PRODUCT_DEVICE := r8q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G780G
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Vendor fingerprint
 BUILD_FINGERPRINT := "samsung/r8qxx/r8q:11/RP1A.200720.012/G780GXXS8EXC1:user/release-keys"
