@@ -16,7 +16,4 @@
             1 - LOCAL HBM
     -->
     <integer name="config_udfpsHbmType">0</integer>
-
-    <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#ffffff</color>
 </resources>
