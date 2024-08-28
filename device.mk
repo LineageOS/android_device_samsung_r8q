@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_diff.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_diff.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Camera
+$(call soong_config_set,samsungCameraVars,extra_ids,52)
+
 # Init files
 PRODUCT_PACKAGES += \
     init.r8q.rc \
