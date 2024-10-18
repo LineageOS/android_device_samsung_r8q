@@ -36,13 +36,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G780G
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_SYSTEM_NAME := r8qxx
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="r8qxx-user 11 RP1A.200720.012 G780GXXSDEXJ3 release-keys" \
-    TARGET_PRODUCT=r8qxx
-
-BUILD_FINGERPRINT := "samsung/r8qxx/r8q:11/RP1A.200720.012/G780GXXSDEXJ3:user/release-keys"
+    BuildDesc="r8qxx-user 11 RP1A.200720.012 G780GXXSDEXJ3 release-keys" \
+    BuildFingerprint=samsung/r8qxx/r8q:11/RP1A.200720.012/G780GXXSDEXJ3:user/release-keys \
+    DeviceProduct=r8qxx \
+    SystemName=r8qxx
