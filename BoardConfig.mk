@@ -31,6 +31,9 @@ include device/samsung/sm8250-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_samsung_r8q
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/samsung/r8q.config
 BOARD_NAME := SRPUB26A007
