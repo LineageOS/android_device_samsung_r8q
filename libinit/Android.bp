@@ -1,0 +1,18 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_samsung_r8q",
+    srcs: [
+        "libinit_samsung_r8q.cpp",
+        "libinit_variant.cpp",
+        "libinit_utils.cpp"
+    ],
+    whole_static_libs: ["libbase"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+    export_include_dirs: ["include"],
+}
