@@ -27,10 +27,12 @@ PRODUCT_COPY_FILES += \
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
-# Init files
+# Init
 PRODUCT_PACKAGES += \
     init.r8q.rc \
     multi.android.hardware.nfc@1.2-service.rc
+
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_r8q)
 
 # NFC
 PRODUCT_PACKAGES += \
