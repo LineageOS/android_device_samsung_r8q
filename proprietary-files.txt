@@ -29,13 +29,13 @@ vendor/firmware/cs40l25a_exc.bin
 vendor/firmware/dax_param.bin
 
 # Camera
-vendor/lib64/K32QS_libTsAeFront.so
-vendor/lib64/K32QS_libTsAfFront.so
-vendor/lib64/K32QS_libTsAwbFront.so
-vendor/lib64/X12QS_libTsAe.so
-vendor/lib64/X12QS_libTsAf.so
-vendor/lib64/X12QS_libTsAwb.so
-vendor/lib64/X12QS_libTsPdafm.so
+vendor/lib64/K32QS_libTsAeFront.so;FIX_SONAME
+vendor/lib64/K32QS_libTsAfFront.so;FIX_SONAME
+vendor/lib64/K32QS_libTsAwbFront.so;FIX_SONAME
+vendor/lib64/X12QS_libTsAe.so;FIX_SONAME
+vendor/lib64/X12QS_libTsAf.so;FIX_SONAME
+vendor/lib64/X12QS_libTsAwb.so;FIX_SONAME
+vendor/lib64/X12QS_libTsPdafm.so;FIX_SONAME
 vendor/lib64/libIMUSensor.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
