@@ -1,3 +1,5 @@
+# Device-specific proprietary files - from Samsung package version G780GXXSDEXJ3 (T)
+
 # Firmware
 vendor/firmware/nfc/libsn100u_fw.so
 
