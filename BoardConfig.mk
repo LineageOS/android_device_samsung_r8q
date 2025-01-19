@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 The LineageOS Project
+# Copyright (C) 2024-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,6 +15,13 @@
 #
 
 DEVICE_PATH := device/samsung/r8q
+
+# Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
+BOARD_CACHEIMAGE_PARTITION_SIZE := 629145600
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 82694144
+BOARD_SUPER_PARTITION_SIZE := 10292822016
 
 # Multi-SKU
 TARGET_HAVE_MULTI_SKU := true
