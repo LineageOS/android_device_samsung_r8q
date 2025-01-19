@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef965fa8_844c5ad0",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-19T18:26:48Z",
+      "side": 1,
+      "message": "You should be able to trim this to remove the unused sensors, like I did for gts7.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 53
+      },
+      "revId": "87456c496ce55f95a1779ce0295452c6bfc2ed43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
