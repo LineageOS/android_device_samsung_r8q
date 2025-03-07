@@ -30,7 +30,7 @@ $(call soong_config_set,samsungCameraVars,extra_ids,52)
 # Init files
 PRODUCT_PACKAGES += \
     init.r8q.rc \
-    init.nfc.sh
+    multi.android.hardware.nfc@1.2-service.rc
 
 # NFC
 PRODUCT_PACKAGES += \

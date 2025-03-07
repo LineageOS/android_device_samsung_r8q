@@ -28,9 +28,6 @@
 #
 
 on post-fs
-# Enable NFC services
-    start vendor.nfc_init
-
 # Create carrier folder for HiddenMenu
     mkdir /efs/carrier 0755 radio system
     chown radio system /efs/carrier
@@ -165,13 +162,15 @@ on post-fs-data && property:ro.csc.sales_code=DSA
     umount /mnt/temp
     rmdir /mnt/temp
 
-# Start NFC hals
-service vendor.nfc_init /vendor/bin/sh /vendor/bin/init.nfc.sh
-    oneshot
+# Property used by vintf for sku specific manifests
+on property:ro.boot.em.model=SM-G781B
+    setprop ro.boot.product.hardware.sku "s3fwrn5"
+    setprop ro.vendor.nfc.feature.chipname "SLSI"
 
-# Define NXP hal once more for disabling it
-service vendor.nfc_hal_service /vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
-    disabled
-    class hal
-    user nfc
-    group nfc net_bt_admin
+on property:ro.boot.em.model=SM-G781N
+    setprop ro.boot.product.hardware.sku "s3fwrn5"
+    setprop ro.vendor.nfc.feature.chipname "SLSI"
+
+on property:ro.boot.em.model=SM-G7810
+    setprop ro.boot.product.hardware.sku "s3fwrn5"
+    setprop ro.vendor.nfc.feature.chipname "SLSI"
