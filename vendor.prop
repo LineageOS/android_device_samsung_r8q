@@ -1,6 +1,3 @@
-# Bluetooth
-bluetooth.device.default_name=Galaxy S20 FE
-
 # Fingerprint
 ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.sensor_location=540|2137|100
