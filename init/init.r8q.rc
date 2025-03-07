@@ -177,3 +177,9 @@ on property:ro.boot.em.model=SM-G781N
 on property:ro.boot.em.model=SM-G7810
     setprop ro.boot.product.hardware.sku "s3fwrn5"
     setprop ro.vendor.nfc.feature.chipname "SLSI"
+
+on fs && property:ro.boot.product.hardware.sku=sn110t
+    mount none /vendor/etc/libnfc-nci-NXP_SN100U.conf /vendor/etc/libnfc-nci.conf bind
+
+on fs && property:ro.boot.product.hardware.sku=s3fwrn5
+    mount none /vendor/etc/libnfc-nci-SLSI.conf /vendor/etc/libnfc-nci.conf bind
