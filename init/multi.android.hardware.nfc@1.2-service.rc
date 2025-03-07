@@ -1,0 +1,27 @@
+service vendor.nfc_hal_service /vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+    disabled
+    class hal
+    user nfc
+    group nfc net_bt_admin
+
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.samsung
+    disabled
+    class hal
+    user nfc
+    group nfc
+
+on property:ro.boot.product.hardware.sku=sn110t
+    start vendor.nfc_hal_service
+    start vendor.secure_element_hal_service
+
+on property:ro.boot.product.hardware.sku=s3fwrn5
+    start nfc_hal_service
+    start vendor.secure_element_hal_service-gto
+
+on property:ro.boot.nfc.feature.chipname=NXP_SN100U
+    start vendor.nfc_hal_service
+    start vendor.secure_element_hal_service
+
+on property:ro.boot.nfc.feature.chipname=SLSI
+    start nfc_hal_service
+    start vendor.secure_element_hal_service-gto
