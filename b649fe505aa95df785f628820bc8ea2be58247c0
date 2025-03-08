@@ -16,6 +16,24 @@
       "message": "Using DISABLE_CHECKELF on libsec_semRil is unnecessary. We must keep the vendor provided libsecril-client. The source-built libsecril-client cannot be used by libsec_semRil.",
       "revId": "b649fe505aa95df785f628820bc8ea2be58247c0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e450ecf_49d67178",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-08T18:17:38Z",
+      "side": 1,
+      "message": "Sure, do the needful. I would like to see this verified in order to follow-up with gts7.",
+      "parentUuid": "d26aff62_f9bdd6ce",
+      "revId": "b649fe505aa95df785f628820bc8ea2be58247c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
