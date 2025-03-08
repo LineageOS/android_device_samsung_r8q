@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ac5ca5f_93ab1a10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2025-03-08T21:14:44Z",
+      "side": 1,
+      "message": "I don\u0027t think NFC hal init belongs to init/hw. r8q.rc should only keep device specific properties and required filesystem changes.",
+      "revId": "8cbb30c2fd7896ba1aa0644fd05c6485687fa274",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
