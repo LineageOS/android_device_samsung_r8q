@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4aaa4439_66171d5d",
+        "filename": "init/multi.android.hardware.nfc@1.2-service.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-08T21:05:28Z",
+      "side": 0,
+      "message": "Why don\u0027t you put this into init.r8q.rc?",
+      "revId": "3143d7c6e0f591b7547508bd87f426a8af884dc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
