@@ -1,8 +1,5 @@
 # Device-specific proprietary files - from Samsung package version G780GXXSDEXJ3 (T)
 
-# Current blobs with ELF checks disabled:
-# lowi-server depends on libwpa_client, which is a GNU makefile target
-
 # ACDB data
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
@@ -137,7 +134,7 @@ vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server;DISABLE_CHECKELF
+vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
