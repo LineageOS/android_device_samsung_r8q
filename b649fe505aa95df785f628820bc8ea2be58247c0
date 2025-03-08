@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d26aff62_f9bdd6ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2025-03-08T18:12:22Z",
+      "side": 1,
+      "message": "Using DISABLE_CHECKELF on libsec_semRil is unnecessary. We must keep the vendor provided libsecril-client. The source-built libsecril-client cannot be used by libsec_semRil.",
+      "revId": "b649fe505aa95df785f628820bc8ea2be58247c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
