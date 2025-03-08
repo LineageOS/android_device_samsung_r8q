@@ -16,6 +16,23 @@
       "message": "I don\u0027t think NFC hal init belongs to init/hw. r8q.rc should only keep device specific properties and required filesystem changes.",
       "revId": "8cbb30c2fd7896ba1aa0644fd05c6485687fa274",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45f77ae0_43311302",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-08T21:18:46Z",
+      "side": 1,
+      "message": "Rebase to merge into lineage-21.",
+      "revId": "8cbb30c2fd7896ba1aa0644fd05c6485687fa274",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

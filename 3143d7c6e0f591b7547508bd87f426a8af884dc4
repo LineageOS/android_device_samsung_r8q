@@ -16,6 +16,24 @@
       "message": "Why don\u0027t you put this into init.r8q.rc?",
       "revId": "3143d7c6e0f591b7547508bd87f426a8af884dc4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "427a4489_e5ad488e",
+        "filename": "init/multi.android.hardware.nfc@1.2-service.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-08T21:18:46Z",
+      "side": 0,
+      "message": "hmmm, ok",
+      "parentUuid": "4aaa4439_66171d5d",
+      "revId": "3143d7c6e0f591b7547508bd87f426a8af884dc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
