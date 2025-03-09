@@ -1,7 +1,6 @@
 # Device-specific proprietary files - from Samsung package version G780GXXSDEXJ3 (T)
 
 # Current blobs with ELF checks disabled:
-# com.qti.chi.override and libsec_semRil depend on libsecril-client, which is a GNU makefile target
 # lowi-server depends on libwpa_client, which is a GNU makefile target
 
 # ACDB data
@@ -101,7 +100,7 @@ vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
-vendor/lib64/hw/com.qti.chi.override.so;DISABLE_CHECKELF
+vendor/lib64/hw/com.qti.chi.override.so
 
 # Camera sensors
 vendor/lib64/camera/com.qti.tuned.default.bin
@@ -203,7 +202,8 @@ vendor/firmware/nfc/libsn100u_fw.so
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # RIL-SEC - from dm2qxxx-user 14 UP1A.231005.007 S9160ZHS5CYA1 release-keys
-vendor/lib64/libsec_semRil.so;DISABLE_CHECKELF|c59b00a3bb037df8f12cd4c5531ab41246e0130a
+vendor/lib64/libsec_semRil.so|c59b00a3bb037df8f12cd4c5531ab41246e0130a
+vendor/lib64/libsecril-client.so|1614f75c6a98e1a4b3ca6a757dd6391b2efeb519
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.0-service

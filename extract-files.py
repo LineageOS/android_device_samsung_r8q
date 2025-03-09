@@ -22,10 +22,7 @@ namespace_imports = [
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
-    (
-        'libsecril-client',
-        'libwpa_client',
-    ): lib_fixup_remove,
+    'libwpa_client': lib_fixup_remove,
 }
 
 module = ExtractUtilsModule(
