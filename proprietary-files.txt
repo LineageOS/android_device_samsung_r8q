@@ -202,8 +202,8 @@ vendor/lib64/nfc_nci_sec.so
 vendor/firmware/nfc/libsn100u_fw.so
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
-# RIL
-vendor/lib64/libsec_semRil.so;DISABLE_CHECKELF
+# RIL - from dm2qxxx-user 14 UP1A.231005.007 S9160ZHS5CYA1 release-keys
+vendor/lib64/libsec_semRil.so;DISABLE_CHECKELF|c59b00a3bb037df8f12cd4c5531ab41246e0130a
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.0-service
