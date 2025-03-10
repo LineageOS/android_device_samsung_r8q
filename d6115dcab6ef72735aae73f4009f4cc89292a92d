@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b80c92c9_b8b9531a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-10T21:52:21Z",
+      "side": 1,
+      "message": "Not until lineage-22.1 branch is updated and fast-forwarded.",
+      "revId": "d6115dcab6ef72735aae73f4009f4cc89292a92d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
