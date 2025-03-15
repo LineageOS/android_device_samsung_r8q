@@ -39,7 +39,12 @@ vendor/lib64/X12QS_libTsAe.so;FIX_SONAME
 vendor/lib64/X12QS_libTsAf.so;FIX_SONAME
 vendor/lib64/X12QS_libTsAwb.so
 vendor/lib64/X12QS_libTsPdafm.so;FIX_SONAME
+vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libIMUSensor.so
+vendor/lib64/libMoonVerifier_v1.camera.samsung.so
+vendor/lib64/libObjectDetector_v1.camera.samsung.so
+vendor/lib64/libOpenCv.camera.samsung.so
+vendor/lib64/libPetDetector_interface.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
