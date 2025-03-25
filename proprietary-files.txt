@@ -109,6 +109,9 @@ vendor/lib64/hw/com.qti.chi.override.so
 
 # Camera sensors
 vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.samsung.sensor.hi847.so
+vendor/lib64/camera/com.samsung.sensor.imx555.so
+vendor/lib64/camera/com.samsung.sensor.imx616.so
 vendor/lib64/camera/com.samsung.sensor.s5k3l6.so
 vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx555.bin
 vendor/lib64/camera/com.samsung.sensormodule.12_sony_imx616_full.bin
