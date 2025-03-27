@@ -1,0 +1,23 @@
+service vendor.secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element-service.nxp
+    disabled
+    class early_hal
+    user secure_element
+    group secure_element
+
+service gto_secure_element_aidl_service /vendor/bin/hw/android.hardware.secure_element-service.thales-sku
+    disabled
+    class hal
+    user secure_element
+    group secure_element nfc
+
+on property:ro.boot.product.hardware.sku=sn110t
+    start vendor.secure_element_hal_service
+
+on property:ro.boot.product.hardware.sku=s3fwrn5
+    start gto_secure_element_aidl_service
+
+on property:ro.boot.nfc.feature.chipname=NXP_SN100U
+    start vendor.secure_element_hal_service
+
+on property:ro.boot.nfc.feature.chipname=SLSI
+    start gto_secure_element_aidl_service

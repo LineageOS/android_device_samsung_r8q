@@ -1,0 +1,43 @@
+cc_defaults {
+    name: "thales_aidl_defaults",
+
+    cflags: [
+        "-DANDROID",
+        "-DENABLE_LOGGING=1",
+        "-DENABLE_DEBUG=1",
+        "-Wno-unused-parameter",
+        "-Wno-unused-private-field",
+        "-Wno-error",
+        "-Wreturn-type",
+    ],
+
+    shared_libs: [
+        "libbinder_ndk",
+        "android.hardware.secure_element-V1-ndk",
+        "android.hardware.secure_element.thales.libse",
+        "libbase",
+        "libcutils",
+        "libhardware",
+        "liblog",
+        "libutils",
+    ],
+}
+
+cc_binary {
+    name: "android.hardware.secure_element-service.thales-sku",
+    relative_install_path: "hw",
+    init_rc: ["secure_element-service-gto.rc"],
+    vendor: true,
+    srcs: [
+        "SecureElement.cpp",
+        "GtoService.cpp",
+    ],
+
+    defaults: ["thales_aidl_defaults"],
+
+    arch: {
+        arm: {
+            cflags: ["-DST_LIB_32"],
+        },
+    },
+}
