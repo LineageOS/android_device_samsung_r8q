@@ -194,7 +194,12 @@ vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 # NFC (SLSI)
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
-vendor/lib64/nfc_nci_sec.so
+
+# NFC (SLSI) | from pa1qxxx-user 15 AP3A.240905.015.A2 S931BXXU1AYB4 release-keys
+vendor/bin/hw/sec.android.hardware.nfc-service|9186b3fb38463ac35a956e46370715a765e73172
+vendor/etc/init/sec-nfc-service.rc|ac8a00630d935369d738dfb2c1331590c2297a6b
+vendor/lib64/nfc_nci_sec.so|9bd2ae2a10fec28ce52f762e54f41c4964aa4d09
+vendor/lib64/vendor.samsung.hardware.nfc_aidl-V1-ndk.so|7b21c6b4960b339e148d5d854b5ba3dcd52a18c5
 
 # NFC (firmware)
 vendor/firmware/nfc/libsn100u_fw.so
