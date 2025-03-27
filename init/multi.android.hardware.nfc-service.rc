@@ -17,7 +17,7 @@ on property:ro.boot.product.hardware.sku=sn110t
 
 on property:ro.boot.product.hardware.sku=s3fwrn5
     start nfc_hal_service
-    start vendor.secure_element_hal_service-gto
+    start gto_secure_element_aidl_service
 
 on property:ro.boot.nfc.feature.chipname=NXP_SN100U
     start vendor.nfc_hal_service
@@ -25,4 +25,4 @@ on property:ro.boot.nfc.feature.chipname=NXP_SN100U
 
 on property:ro.boot.nfc.feature.chipname=SLSI
     start nfc_hal_service
-    start vendor.secure_element_hal_service-gto
+    start gto_secure_element_aidl_service
