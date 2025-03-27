@@ -16,3 +16,10 @@ prebuilt_etc {
     sub_dir: "init/",
     soc_specific: true,
 }
+
+prebuilt_etc {
+    name: "multi.android.hardware.secure_element-service.rc",
+    src: "multi.android.hardware.secure_element-service.rc",
+    sub_dir: "init/",
+    soc_specific: true,
+}
