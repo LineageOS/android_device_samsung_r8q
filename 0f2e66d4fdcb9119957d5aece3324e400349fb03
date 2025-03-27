@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d7cae2c_3d3ac758",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-03-27T13:57:37Z",
+      "side": 1,
+      "message": "How difficult would it be to convert the HIDL HAL in hardware/samsung/nfc to AIDL?",
+      "revId": "0f2e66d4fdcb9119957d5aece3324e400349fb03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cb07947e_6599c16d",
