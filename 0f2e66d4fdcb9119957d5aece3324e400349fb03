@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3290c9f_46f09629",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2025-03-28T11:17:37Z",
+      "side": 1,
+      "message": "This is only a temporary solution until AIDL hal is completed. I would stay in HIDL until AIDL is completed but I\u0027m having issues with blobed HIDL NXP NFC/Secure Element in 22.2 and hal versions need to be synchronized with each other.",
+      "revId": "0f2e66d4fdcb9119957d5aece3324e400349fb03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cb07947e_6599c16d",
