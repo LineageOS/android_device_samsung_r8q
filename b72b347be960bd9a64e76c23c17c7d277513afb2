@@ -22,6 +22,30 @@
       },
       "revId": "b72b347be960bd9a64e76c23c17c7d277513afb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67f3235a_dde32691",
+        "filename": "configs/framework_compatibility_matrix.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2025-04-12T11:51:52Z",
+      "side": 1,
+      "message": "I thought it would be unnecessary since I thought no one would switch to blobbed hal. I can push to hw/samsung if it\u0027s fine.",
+      "parentUuid": "2f2be1bd_9cbe7c9c",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 10
+      },
+      "revId": "b72b347be960bd9a64e76c23c17c7d277513afb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
