@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_r8q)
+
 # Init files
 PRODUCT_PACKAGES += \
     init.r8q.rc \
