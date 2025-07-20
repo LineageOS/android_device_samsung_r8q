@@ -87,6 +87,7 @@ vendor/lib64/camera/components/com.ss.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 
 # Camera features
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -102,7 +103,6 @@ vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
-vendor/lib64/hw/com.qti.chi.override.so
 
 # Camera sensors
 vendor/lib64/camera/com.qti.tuned.default.bin
@@ -144,14 +144,14 @@ vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib64/libbatching.so
