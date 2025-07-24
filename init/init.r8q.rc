@@ -30,6 +30,9 @@
 on early-boot
     chown system system /sys/class/sec/tsp/scrub_pos
 
+on boot
+    write /sys/class/lcd/panel/alpm 4
+
 on post-fs
 # Create carrier folder for HiddenMenu
     mkdir /efs/carrier 0755 radio system
