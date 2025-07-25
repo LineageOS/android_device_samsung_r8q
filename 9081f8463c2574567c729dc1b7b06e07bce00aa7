@@ -51,6 +51,24 @@
       "message": "What about fingerprints though? As far as I can see, we\u0027re not overriding fingerprint properties with this method. G781 users have experienced some issues with GMS when using G780G fingerprint.",
       "revId": "9081f8463c2574567c729dc1b7b06e07bce00aa7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed614ef0_c7d3da7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-25T22:35:21Z",
+      "side": 1,
+      "message": "I don\u0027t know about that one. Did you try setting ro.odm.build.fingerprint in each build.prop?",
+      "parentUuid": "47f8c7a3_d5b63ab0",
+      "revId": "9081f8463c2574567c729dc1b7b06e07bce00aa7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
