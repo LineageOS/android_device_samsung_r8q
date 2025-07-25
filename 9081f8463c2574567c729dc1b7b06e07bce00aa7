@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77956ca1_7b25fa85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-25T12:27:43Z",
+      "side": 1,
+      "message": "Hold this a bit. All this can be achieved with simple init rc scripts and variant specific build.prop.",
+      "revId": "9081f8463c2574567c729dc1b7b06e07bce00aa7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
