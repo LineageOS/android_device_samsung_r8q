@@ -86,6 +86,24 @@
       "message": "It looks like ro.build.fingerprint can\u0027t be overriden that way, what the others such as ro.odm.build.fingerprint can.",
       "revId": "9081f8463c2574567c729dc1b7b06e07bce00aa7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aee36a5_d0ea1032",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-26T22:16:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c48a300c_22aaf314",
+      "revId": "9081f8463c2574567c729dc1b7b06e07bce00aa7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
