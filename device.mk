@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947232161729153.xml
+
 # Init
 PRODUCT_PACKAGES += \
     android.hardware.multi-sku.rc \
