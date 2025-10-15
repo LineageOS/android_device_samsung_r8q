@@ -27,8 +27,8 @@
              </string-array>
     -->
     <string-array name="config_additionalVideoConfigurations">
-        <item>0</item>  <item>hd|fhd|uhd</item>  <item>60</item> <!-- Main rear camera -->
-        <item>1</item>  <item>hd|fhd|uhd</item>  <item>60</item> <!-- Front camera 1x-1.2x -->
+        <item>0</item>  <item>hd|fhd|uhd</item>  <item>30</item> <!-- Main rear camera -->
+        <item>1</item>  <item>hd|fhd|uhd</item>  <item>30</item> <!-- Front camera 1x-1.2x -->
         <item>2</item>  <item>hd|fhd|uhd</item>  <item>30</item> <!-- Wide angle camera -->
     </string-array>
 </resources>
