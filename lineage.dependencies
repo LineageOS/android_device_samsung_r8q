@@ -2,5 +2,9 @@
     {
         "repository": "android_device_samsung_sm8250-common",
         "target_path": "device/samsung/sm8250-common"
+    },
+    {
+        "repository": "android_hardware_samsung_slsi_nfc",
+        "target_path": "hardware/samsung_slsi/nfc"
     }
 ]

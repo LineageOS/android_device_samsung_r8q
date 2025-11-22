@@ -4,7 +4,7 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
     user nfc
     group nfc drmrpc system
 
-service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.samsung
+service vendor.sec_nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.sec
     disabled
     class hal
     user nfc
@@ -27,7 +27,7 @@ on property:ro.boot.product.hardware.sku=sn110t
     start vendor.secure_element_hal_service
 
 on property:ro.boot.product.hardware.sku=s3fwrn5
-    start nfc_hal_service
+    start vendor.sec_nfc_hal_service
     start gto_secure_element_aidl_service
 
 on property:ro.boot.nfc.feature.chipname=NXP_SN100U
@@ -35,5 +35,5 @@ on property:ro.boot.nfc.feature.chipname=NXP_SN100U
     start vendor.secure_element_hal_service
 
 on property:ro.boot.nfc.feature.chipname=SLSI
-    start nfc_hal_service
+    start vendor.sec_nfc_hal_service
     start gto_secure_element_aidl_service
