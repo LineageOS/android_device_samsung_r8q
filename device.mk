@@ -35,15 +35,15 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.r8q.rc \
-    multi.android.hardware.nfc@1.2-service.rc
+    android.hardware.nfc-service.multi.rc \
+    init.r8q.rc
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_r8q)
 
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
-    android.hardware.nfc@1.2-service.samsung \
+    android.hardware.nfc-service.sec \
     com.android.nfc_extras \
     Tag
 
