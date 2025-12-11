@@ -42,6 +42,7 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.nxp \
     android.hardware.nfc@1.2-service.samsung \
     com.android.nfc_extras \
     Tag
