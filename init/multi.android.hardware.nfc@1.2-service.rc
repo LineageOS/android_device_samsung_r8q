@@ -10,6 +10,18 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.samsung
     user nfc
     group nfc
 
+service vendor.secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element-service.nxp
+    disabled
+    class early_hal
+    user secure_element
+    group secure_element
+
+service gto_secure_element_aidl_service /vendor/bin/hw/android.hardware.secure_element-service.thales
+    disabled
+    class hal
+    user secure_element
+    group secure_element nfc
+
 on property:ro.boot.product.hardware.sku=sn110t
     start vendor.nfc_hal_service
     start vendor.secure_element_hal_service
