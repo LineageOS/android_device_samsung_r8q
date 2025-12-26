@@ -16,6 +16,24 @@
       "message": "I\u0027d rather not do it at this point. We removed the overlay in 23.1.",
       "revId": "bdb3a8ad6f0b2e31df77f6c96c6843b681a0a04d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "683e7766_f716457f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-26T22:17:22Z",
+      "side": 1,
+      "message": "Or better saying, we changed the default.",
+      "parentUuid": "c404af3d_505dbb2c",
+      "revId": "bdb3a8ad6f0b2e31df77f6c96c6843b681a0a04d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
