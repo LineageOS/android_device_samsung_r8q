@@ -4,7 +4,7 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
     user nfc
     group nfc drmrpc system
 
-service vendor.sec_nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.sec
+service vendor.sec_nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.sec-sku
     disabled
     class hal
     user nfc
@@ -16,7 +16,7 @@ service vendor.secure_element_hal_service /vendor/bin/hw/android.hardware.secure
     user secure_element
     group secure_element
 
-service gto_secure_element_aidl_service /vendor/bin/hw/android.hardware.secure_element-service.thales
+service gto_secure_element_aidl_service /vendor/bin/hw/android.hardware.secure_element-service.thales-sku
     disabled
     class hal
     user secure_element
