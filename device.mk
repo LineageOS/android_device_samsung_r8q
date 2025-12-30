@@ -79,6 +79,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # UDFPS
+$(call soong_config_set,qtidisplay,samsung_udfps,true)
+$(call soong_config_set,samsungUdfpsVars,dim_layer_zorder,0x20000001u)
 $(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
 
