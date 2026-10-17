@@ -933,6 +933,14 @@
         <ctl name="MultiMedia16 Mixer USB_AUDIO_TX" value="1" />
     </path>
 
+    <path name="hifi-playback speaker">
+        <ctl name="PRI_TDM_RX_0 Audio Mixer MultiMedia2" value="1" />
+    </path>
+
+    <path name="hifi-playback speaker-protected">
+        <path name="hifi-playback speaker" />
+    </path>
+
     <path name="hifi-playback display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia2" value="1" />
     </path>
