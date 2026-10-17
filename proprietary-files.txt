@@ -12,6 +12,10 @@ vendor/etc/audconf/OPEN/Headset_cal.acdb
 vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
+# Audio recording
+vendor/lib/lib_SamsungRec_07020.so
+vendor/lib/librecordalive.so
+
 # Audio (amplifier firmware)
 vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
