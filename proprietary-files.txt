@@ -250,3 +250,4 @@ vendor/lib64/sensors.ssc.so
 
 # Thermal
 vendor/etc/btcon.json
+vendor/etc/mercury.json
