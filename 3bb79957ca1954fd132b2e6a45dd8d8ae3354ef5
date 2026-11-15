@@ -16,6 +16,24 @@
       "message": "Sort it",
       "revId": "3bb79957ca1954fd132b2e6a45dd8d8ae3354ef5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c870ec51_be49d45b",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-11-15T19:30:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "117562ed_e9df6490",
+      "revId": "3bb79957ca1954fd132b2e6a45dd8d8ae3354ef5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
