@@ -1,44 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <displayConfiguration>
-    <screenBrightnessMap interpolation="linear">
+    <screenBrightnessMap>
         <point>
             <value>0.0</value>
-            <nits>2.0</nits>
+            <nits>2</nits>
         </point>
         <point>
-            <value>0.52469136</value>
-            <nits>420.0</nits> <!-- Maximum non-HBM brightness nits -->
+            <value>0.0082</value>
+            <nits>4.4</nits>
+        </point>
+        <point>
+            <value>0.0185</value>
+            <nits>6.9</nits>
+        </point>
+        <point>
+            <value>0.0247</value>
+            <nits>10.3</nits>
+        </point>
+        <point>
+            <value>0.0658</value>
+            <nits>30.6</nits>
+        </point>
+        <point>
+            <value>0.2016</value>
+            <nits>124.7</nits>
+        </point>
+        <point>
+            <value>0.3457</value>
+            <nits>249.4</nits>
+        </point>
+        <point>
+            <value>0.4733</value>
+            <nits>372</nits>
+        </point>
+        <point>
+            <value>0.5103</value>
+            <nits>407.5</nits>
+        </point>
+        <point>
+            <value>0.5185</value>
+            <nits>415.2</nits>
+        </point>
+        <point>
+            <value>0.5247</value>
+            <nits>420</nits> <!-- Maximum non-HBM brightness nits -->
+        </point>
+        <point>
+            <value>0.5267</value>
+            <nits>444.7</nits>
+        </point>
+        <point>
+            <value>0.5329</value>
+            <nits>449.3</nits>
+        </point>
+        <point>
+            <value>0.5494</value>
+            <nits>461.5</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>800.0</nits>
+            <nits>800</nits>
         </point>
     </screenBrightnessMap>
-    <screenBrightnessDefault>0.48235294</screenBrightnessDefault>
+
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.52469136</transitionPoint>
-        <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
-        <minimumLux>8700</minimumLux>
+        <transitionPoint>0.5247</transitionPoint>
+        <minimumLux>3000</minimumLux>
         <timing>
-            <timeWindowSecs>1800</timeWindowSecs>
-            <timeMaxSecs>300</timeMaxSecs>
-            <timeMinSecs>60</timeMinSecs>
-        </timing>
-        <sdrHdrRatioMap>
-            <point>
-                <sdrNits>2.000</sdrNits>
-                <hdrRatio>8.000</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>800.000</sdrNits>
-                <hdrRatio>2.000</hdrRatio>
-            </point>
-        </sdrHdrRatioMap>
+            <timeWindowSecs>0</timeWindowSecs> // Window in which we restrict HBM.
+            <timeMaxSecs>0</timeMaxSecs>        // Maximum time of HBM allowed in that window.
+            <timeMinSecs>0</timeMinSecs>         // Minimum time remaining required to switch
+        </timing>                                 //   HBM on for.
     </highBrightnessMode>
-    <screenBrightnessRampFastDecrease>0.06</screenBrightnessRampFastDecrease>
-    <screenBrightnessRampFastIncrease>0.06</screenBrightnessRampFastIncrease>
-    <screenBrightnessRampSlowDecrease>0.04</screenBrightnessRampSlowDecrease>
-    <screenBrightnessRampSlowIncrease>0.04</screenBrightnessRampSlowIncrease>
-    <screenBrightnessRampIncreaseMaxMillis>3000</screenBrightnessRampIncreaseMaxMillis>
-    <screenBrightnessRampDecreaseMaxMillis>3000</screenBrightnessRampDecreaseMaxMillis>
+
+    <autoBrightness enabled="true">
+        <brighteningLightDebounceMillis>1000</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>2000</darkeningLightDebounceMillis>
+        <brighteningLightDebounceIdleMillis>-1</brighteningLightDebounceIdleMillis>
+        <darkeningLightDebounceIdleMillis>-1</darkeningLightDebounceIdleMillis>
+    </autoBrightness>
+
+    <hdrBrightnessConfig>
+        <brightnessMap>
+        </brightnessMap>
+        <brightnessIncreaseDebounceMillis>0</brightnessIncreaseDebounceMillis>
+        <screenBrightnessRampIncrease>-1.0</screenBrightnessRampIncrease>
+        <brightnessDecreaseDebounceMillis>0</brightnessDecreaseDebounceMillis>
+        <screenBrightnessRampDecrease>-1.0</screenBrightnessRampDecrease>
+    </hdrBrightnessConfig>
+
+    <lightSensor>
+        <type>com.samsung.sensor.physical_light</type>
+    </lightSensor>
 </displayConfiguration>
