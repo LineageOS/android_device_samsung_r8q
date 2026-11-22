@@ -253,5 +253,4 @@ vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
 # Thermal
-vendor/etc/btcon.json
 vendor/etc/mercury.json
