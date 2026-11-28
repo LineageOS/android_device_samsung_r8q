@@ -202,7 +202,7 @@ vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/firmware/nfc/libsn100u_fw.so
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
-# RIL-SEC - from dm2qxxx-user 14 UP1A.231005.007 S9160ZHS5CYA1 release-keys
+# RIL-SEC - from dm1qxxx-user 16 BP2A.250605.031.A3 S911BXXS9EZCI release-keys
 vendor/lib64/libsec_semRil.so|c59b00a3bb037df8f12cd4c5531ab41246e0130a
 vendor/lib64/libsecril-client.so|1614f75c6a98e1a4b3ca6a757dd6391b2efeb519
 
